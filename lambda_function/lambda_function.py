@@ -9,7 +9,7 @@ CLIMATE_DATA_BUCKET = 'climate.ml'
 appid = os.environ['openweather_key']
 bbox = countries_lat_lon.bbox
 
-bbox_iran = bbox.get('Iran')
+bbox_iran = bbox.get('region_a')
 
 baseurl = 'http://api.openweathermap.org/data/2.5/'
 yql_url = baseurl + 'box/city?bbox=' + bbox_iran
