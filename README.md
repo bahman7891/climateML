@@ -1,7 +1,7 @@
 # Machine Learning Climate Study
 
 **ClimateML** is a cloud based study on climate using merely the historic data. The questions sorrounding such study is still under development however the major topics are:
-  - Is it at all possible to use historic data to predict certain quantities characterizing the climate. 
+  - Is it at all possible to use historic data to predict certain quantities characterizing the climate.
   - If the above question has positive answer, which characteristics are predictable ?
   - Is it also possible to use thermodynamic models as part of such predictive modeling ?
   - Is it feasible to include the emission and other chemical ingredients data into the modeling?
@@ -15,6 +15,6 @@ This study is using AWS resources on a limited budget. The resouces will be indi
 
 ## Data
 
-Data is being collected from various sources. At this time the only source is:
+Data will be collected from various sources such as:
 
 * [OpenWeathe API](https://openweathermap.org/api)
