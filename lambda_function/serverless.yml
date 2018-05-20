@@ -23,6 +23,9 @@ provider:
   stage: dev
   environment:
     openweather_key: e98f6025fdfa352100ef5350a5aa98e8
+    db_username: ${env:db_username}
+    db_pass: ${env:db_pass}
+
   package:
     include:
       - countries_lat_lon.py
