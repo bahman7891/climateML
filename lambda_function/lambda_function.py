@@ -127,7 +127,8 @@ def write_condition_data_to_csv(data):
     for data_dict in data:
         weather = data_dict.get('weather')
         if weather:
-            condition = weather[0].get('description', '')
+            _condition = weather[0].get('description', '')
+            condition = _condition.replace(',', '')
         else:
             condition = ''
         utc_time = data_dict.get('dt')
